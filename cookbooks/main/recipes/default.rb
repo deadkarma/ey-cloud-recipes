@@ -38,7 +38,7 @@
 #require_recipe "mongodb"
 
 #uncomment to run the resque recipe
-# require_recipe "resque"
+require_recipe "resque"
 
 #uncomment to run the resque-scheduler recipe
 # require_recipe "resque-scheduler"
@@ -98,7 +98,7 @@
   # postgresql9_isn "dbname"
   # postgresql9_lo "dbname"
   # postgresql9_ltree "dbname"
-  # postgresql9_pg_trgm "dbname"  
+  # postgresql9_pg_trgm "dbname"
   # postgresql9_pgcrypto "dbname"
   # postgresql9_pgrowlocks "dbname"
   # postgresql9_postgis "dbname"
@@ -108,15 +108,15 @@
   # postgresql9_test_parser "dbname"
   # postgresql9_unaccent "dbname"
   # postgresql9_uuid_ossp "dbname"
-  
-  
+
+
   # 9.1 Extensions
-  # postgresql9_file_fdw "dbname" 
+  # postgresql9_file_fdw "dbname"
   # postgresql9_xml2 "dbname"
-  
+
   #Admin-Level Contribs
   # postgresql9_pg_buffercache "postgres"
   # postgresql9_pg_freespacemap "postgres"
   # postgresql9_pg_stat_statements "todo" - Not done
-  
+
 # end
