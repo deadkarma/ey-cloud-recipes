@@ -8,7 +8,7 @@
 # require_recipe "sphinx"
 
 #uncomment to turn on memcached
-# require_recipe "memcached"
+require_recipe "memcached"
 
 #uncomment ot run the riak recipe
 # require_recipe "riak"
@@ -44,7 +44,9 @@ require_recipe "resque"
 # require_recipe "resque-scheduler"
 
 #uncomment to run the redis recipe
-#require_recipe "redis"
+require_recipe "redis"
+
+require_recipe "redis-yml"
 
 #require_recipe "logrotate"
 #
